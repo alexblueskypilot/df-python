@@ -7,7 +7,7 @@ command -v conda >/dev/null 2>&1 || { echo >&2 "conda not found. Please refer to
 source scripts/settings.sh
 
 source $(conda info --base)/etc/profile.d/conda.sh
-conda create -y -n $CONDA_ENV_NAME python=3.7
+conda create -y -n $CONDA_ENV_NAME python=3.9
 conda activate $CONDA_ENV_NAME
 
 # FOMM
